@@ -1,6 +1,7 @@
-$(".owl-carousel").owlCarousel({
+$("#products").owlCarousel({
   loop: true,
-  margin: 40,
+  centre: true,
+  margin: 100,
   nav: false,
   autoplay: true,
   autoplayTimeout: 1000,
